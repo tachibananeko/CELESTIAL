@@ -3594,8 +3594,15 @@ footer.events {
     min-height: 500px;
     padding-bottom: 220px;
     font-size: 60px;
+    text-align: center;
 }
 
 footer.contact .go-home {
     margin-top: 30px;
+}
+
+@media only screen and (max-width: 991px) {
+    .submitBox_content {
+        font-size: 40px;
+    }
 }
