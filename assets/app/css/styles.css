@@ -952,7 +952,7 @@ footer.contact .go-home {
 /********** HOME **********/
 
 .site-content.home .header {
-    background-color: #000;
+    background: url(../img/index/index-bg.jpg) no-repeat center #000;
 }
 
 @media only screen and (max-width: 991px) {
@@ -1086,19 +1086,19 @@ footer.contact .go-home {
 
 @media only screen and (max-width: 450px) {
     .site-content.home .website .zoominheader {
-        background-image: url(../img/index/websites-mobile-bg.jpg);
+        
     }
     .site-content.home .mobile .zoominheader {
-        background-image: url(../img/index/mobile-mobile-bg.jpg);
+        
     }
     .site-content.home .games .zoominheader {
-        background-image: url(../img/index/games-mobile-bg.jpg);
+        
     }
     .site-content.home .dm .zoominheader {
-        background-image: url(../img/index/dm-mobile-bg.jpg);
+        
     }
     .site-content.home .events {
-        background-image: url(../img/index/events-mobile-bg.jpg);
+        
     }
 }
 
@@ -1133,18 +1133,14 @@ footer.contact .go-home {
 }
 
 .site-content.home .row.top-left {
-    align-items: flex-start;
+    align-items: center;
 }
-
-.site-content.home .row.center-left {}
 
 .site-content.home .row.bottom-left {
-    align-items: flex-end;
-}
-
-.site-content.home .row.top-left {
+    justify-content: flex-end;
     align-items: flex-start;
 }
+
 
 .site-content.home .sub-caption {
     font-size: 24px;
@@ -1154,10 +1150,7 @@ footer.contact .go-home {
 }
 
 @media only screen and (max-width: 1024px) {
-    .site-content.home .row.top-left,
-    .site-content.home .row.center-left,
-    .site-content.home .row.bottom-left,
-    .site-content.home .row.top-left {
+    .site-content.home .row.center-left{
         align-items: center;
         justify-content: center;
     }
