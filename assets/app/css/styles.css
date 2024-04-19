@@ -3601,7 +3601,7 @@ footer.contact .go-home {
     margin-top: 30px;
 }
 
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 1024px) {
     .submitBox_content {
         font-size: 40px;
     }
