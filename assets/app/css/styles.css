@@ -915,7 +915,7 @@ footer.contact .go-home {
 
 .header .caption,
 .header .caption a {
-    color: #ffffff;
+    color: #000;
 }
 
 .header .caption .product-decsription {
@@ -952,7 +952,7 @@ footer.contact .go-home {
 /********** HOME **********/
 
 .site-content.home .header {
-    background: url(../img/index/index-bg.jpg) no-repeat center #000;
+    background: url(../img/index/index-bg.jpg) no-repeat center 35% #000;
 }
 
 @media only screen and (max-width: 991px) {
@@ -2900,7 +2900,10 @@ footer.events {
 }
 
 @media only screen and (max-width: 768px) {
-    .company .company-section-1,
+    .company .company-section-1{
+        background-image: none;
+        background-color: #000;
+    }
     .company .company-section-3 {
         background-image: none;
         background-color: #fff;
@@ -3581,4 +3584,18 @@ footer.events {
     font-weight: bold;
     margin-left: 5px;
     line-height: 1;
+}
+
+/* 113.04.19 */
+.submitBox_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 500px;
+    padding-bottom: 220px;
+    font-size: 60px;
+}
+
+footer.contact .go-home {
+    margin-top: 30px;
 }
